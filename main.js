@@ -24,3 +24,5 @@ function prev() {
   }
   slider.src = images[num];
 }
+
+mmdndmdmmd
