@@ -7,6 +7,10 @@ client.on("ready", ()=>{
 console.log("bot is ready to go")
 })
 
+const polls = require("./polls.js")
+
+polls(client)
+
 client.on("message",(msg)=>{
 if(msg.content === "huh"){
 msg.reply("abey gotya, phir se")
